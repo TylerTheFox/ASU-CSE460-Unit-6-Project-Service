@@ -1,0 +1,32 @@
+﻿@page
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Unit 6 SOC Project</h1>
+    <br />
+    <br />
+
+    <p>Height: </p>
+    <input name="height_input" type="Text">
+
+    <p>Weight: </p>
+    <input name="weight_input" type="Text">
+
+    <br />
+    <br />
+
+    <p>BMI:</p><p name="soap_bmi_result"></p>
+    <p>Health Indicator:</p><p name="soap_health_result"></p>
+    <input type="submit" name="submit_soap" id="soap_summit" value="Call Rest API" runat="server" onclick="soap_button_click();" />
+
+    <br />
+    <br />
+
+    <p>BMI:</p><p name="rest_bmi_result"></p>
+    <p>Health Indicator:</p><p name="rest_health_result"></p>
+
+    <br />
+    <br />
+    <input type="submit" name="submit_rest" id="rest_summit" value="Call Rest API" runat="server" onclick="rest_button_click();" />
+</body>
+</html>
